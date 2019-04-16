@@ -1,0 +1,34 @@
+.container {
+    padding: 15px;
+    height: calc(100vh - 80px);
+    overflow: scroll;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.members {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+.member {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+    font-size: 14px;
+}
+
+.name {
+    width: 70%;
+    text-align: left;
+}
+
+.rank {
+    width: 30%;
+    text-align: right;
+}

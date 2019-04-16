@@ -1,0 +1,36 @@
+.container {
+    padding: 15px;
+    height: calc(100vh - 80px);
+    width: calc(100vw - 30px);
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0 0 15px 0;
+}
+
+.section {
+    margin: 5px 0px;
+    display: flex;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.header {
+    text-decoration: underline;
+    margin: 0 0 10px 0;
+}
+
+.content {
+    font-size: 14px;
+    line-height: 15px;
+    margin: 0 0 15px 0;
+}
+
+.content > a {
+    text-decoration: none;
+}

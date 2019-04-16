@@ -1,0 +1,44 @@
+.body {
+    background-color: #525252;
+    height: 50px;
+    width: 100%;
+    overflow: scroll;
+    display: flex;
+    align-items: center;
+}
+
+i {
+    font-size: 14px;
+}
+
+.menu {
+    margin: 10px;
+}
+
+.mobile {
+    margin: auto;
+}
+
+.linkContainer {
+    position: absolute;
+    top: 50px;
+    height: calc(100% - 50px);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+}
+
+.link {
+    line-height: 40px;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 900;
+    white-space: nowrap;
+    border-bottom: 1px solid #2df840;
+}
+
+.icon {
+    margin: 0 0 0 auto;
+    height: 100%
+}
