@@ -4,11 +4,11 @@ export const MembersList = [
         rank: 'Admiral'
     },
     {
-        name: 'CaptainZifmia',
-        rank: 'Commodore'
+        name: 'CaptJars',
+        rank: 'Founder'
     },
     {
-        name: 'CaptJars',
+        name: 'CaptainZifmia',
         rank: 'Commodore'
     },
     {
