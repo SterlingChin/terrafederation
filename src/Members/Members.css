@@ -24,11 +24,11 @@
 }
 
 .name {
-    width: 70%;
+    width: 200px;
     text-align: left;
 }
 
 .rank {
-    width: 30%;
+    width: 100px;
     text-align: right;
 }

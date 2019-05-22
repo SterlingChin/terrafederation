@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { MembersList } from './MembersList'
+import { MembersList } from './MembersList2'
 import isMobile from '../Utils/isMobile';
 
 // Selectors
@@ -25,6 +25,9 @@ const Members = ({ colorScheme }) => {
                         </div>
                         <div className={styles.rank}>
                             {member.rank}
+                        </div>
+                        <div className={styles.rank}>
+                            {member.lvl}
                         </div>
                     </div>
                 )}
